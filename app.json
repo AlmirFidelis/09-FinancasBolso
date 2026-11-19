@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "09-FinancasBolso",
+    "name": "Finanças no Bolso",
     "slug": "09-FinancasBolso",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,6 +10,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "br.com.financasnobolso.app",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -19,6 +20,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-sharing"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2eb02674-7363-4da7-9d8f-74b2c4c57fa0"
+      }
     }
   }
 }
